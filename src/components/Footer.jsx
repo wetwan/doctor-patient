@@ -11,10 +11,12 @@ const Footer = () => {
         <div className="">
           <img src={assets.logo} alt="" className=" mb-5 w-40" />
           <p className=" w-full md:w-2/3 text-gray-600 leading-6">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry &apos;s standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of
-            type and scrambled it to make a type specimen book.
+            Prescripto is committed to excellence in healthcare technology. We
+            continuously strive to enhance our platform, integrating the latest
+            advancements to improve user experience and deliver superior
+            service. Whether you &lsquo; re booking your first appointment or managing
+            ongoing care, Prescripto is here to support you every step of the
+            way
           </p>
         </div>
         {/* ------------center side ------------ */}
@@ -45,7 +47,9 @@ const Footer = () => {
       </div>
       {/* ------------copyright side ------------ */}
       <hr className=" " />
-      <p className=" py-5 text-sm text-center font-semibold">Prescipto &copy; {new Date().getFullYear()}</p>
+      <p className=" py-5 text-sm text-center font-semibold">
+        Prescipto &copy; {new Date().getFullYear()}
+      </p>
     </div>
   );
 };
